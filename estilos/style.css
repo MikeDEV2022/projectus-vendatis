@@ -49,13 +49,12 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    padding-left: 20px;
+    margin-left: 20px;
     text-transform: uppercase;
 }
 .nav-list a:hover{
     color: #DB0541;
-    text-decoration: underline;
-    transition: .5s;
+    border-bottom: 2px solid #DB0541;
 }
 .apresentation{
     display: flex;
