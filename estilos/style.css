@@ -35,7 +35,7 @@ body{
     padding-right: 50px;
 }
 .icons > .fa-facebook-f:hover{
-    color: var(--cor1);
+    color: var(--cor5);
     cursor: pointer;
     transition: .5s;
 }
