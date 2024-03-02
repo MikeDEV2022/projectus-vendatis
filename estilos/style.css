@@ -66,6 +66,10 @@ body{
     padding: 40px;
     gap: 30px;
 }
+.container-png{
+    width: 50%;
+    height: 50%;
+}
 .tex-container{
     padding: 5vh;
 }
