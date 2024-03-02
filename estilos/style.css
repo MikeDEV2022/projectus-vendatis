@@ -67,7 +67,7 @@ body{
     gap: 30px;
 }
 .tex-container{
-    padding-top: 10vh;
+    padding: 5vh;
 }
 .tex-container h1{
     color: var(--cor2);
