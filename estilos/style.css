@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Domine:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --font-principal: "Kanit", sans-serif;
+    --cor1: #4E7384;
+    --cor2: #F2F2F2;
+    --cor3: #A716DB;
+    --cor4: #2616DB;
+    --cor5: #DB0641;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-principal);
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.548);
+}
+.header-container img{
+    width: 12vw;
+    padding-left: 60px;
+}
+.icons{
+    display: flex;
+    font-size: 1.6em;
+    margin-right: 8vw;
+}
+.fa-facebook-f{
+    padding-right: 50px;
+}
+.fa-facebook-f:hover{
+    color: var(--cor1);
+    cursor: pointer;
+    transition: .5s;
+}
+.fa-instagram:hover{
+    color: var(--cor5);
+    cursor: pointer;
+    transition: .5s;
+}
+nav > a{
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #DB0541;
+    transition: .5s;
+}
+.apresentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to right, #4E7384, #487083, #436c80);
+    height: 80vh;
+    padding: 40px;
+    gap: 30px;
+}
+.tex-container{
+    padding-top: 10vh;
+}
+.tex-container h1{
+    color: var(--cor2);
+    font-weight: bolder;
+    font-size: 5vw;
+}
+.tex-container p{
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    color: var(--cor2);
+}
+.button{
+    border: none;
+    background-color: var(--cor4);
+    padding: 25px 50px;
+    border-radius: 50px;
+    color: var(--cor2);
+    font-size: 1.3em;
+    font-weight: bold;
+    box-shadow: 0 5px 30px #2616db67;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: var(--cor5);
+    transition: .5s;
+    box-shadow: 0 5px 30px #db05427c;
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: var(--cor2);
+    padding: 5vh 11vw;
+}
+.text-about{
+    width: 50vw;
+}
+.container-smartwatch{
+    width: 50vw;
+}
+.text-about h1{
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+.text-about p{
+    padding: 20px 0px;
+    font-size: 1.3em;
+}
+.text-about button{
+    margin-top: 20px;
+}
+.background-img-section{
+    display: flex;
+    align-items: center;
+    background-image: url('../imagens/background.jpg');
+    background-size: cover;
+    background-position: left center;
+    height: 80vh;
+    padding: 0px 4vw;
+}
+.text-background-img-section{
+    width: 45%;
+    padding: 20px;
+    color: var(--cor2);
+}
+.text-background-img-section h1{
+    font-size: 4.5vw;
+}
+.text-background-img-section p{
+    padding: 20px 0px;
+}
+
