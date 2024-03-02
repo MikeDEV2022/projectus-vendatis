@@ -197,8 +197,10 @@ body{
 .icons-text > .fa-facebook-f{
     padding: 10px 15px;
 }
-.icons-text:hover{
+.icons-text i:hover{
     cursor: pointer;
+    box-shadow: 0px 0px 20px #436c80;
+    transition: .5s;
 }
 footer{
     display: flex;
