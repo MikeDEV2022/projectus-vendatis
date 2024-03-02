@@ -23,7 +23,7 @@ body{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.548);
 }
 .header-container img{
-    width: 12vw;
+    width: 12%;
     padding-left: 60px;
 }
 .icons{
@@ -31,20 +31,20 @@ body{
     font-size: 1.6em;
     margin-right: 8vw;
 }
-.fa-facebook-f{
+.icons > .fa-facebook-f{
     padding-right: 50px;
 }
-.fa-facebook-f:hover{
+.icons > .fa-facebook-f:hover{
     color: var(--cor1);
     cursor: pointer;
     transition: .5s;
 }
-.fa-instagram:hover{
+.icons > .fa-instagram:hover{
     color: var(--cor5);
     cursor: pointer;
     transition: .5s;
 }
-nav > a{
+.nav-list a{
     font-size: 0.9em;
     text-decoration: none;
     font-weight: bold;
@@ -52,8 +52,9 @@ nav > a{
     padding-left: 20px;
     text-transform: uppercase;
 }
-nav a:hover{
+.nav-list a:hover{
     color: #DB0541;
+    text-decoration: underline;
     transition: .5s;
 }
 .apresentation{
@@ -72,6 +73,7 @@ nav a:hover{
     color: var(--cor2);
     font-weight: bolder;
     font-size: 5vw;
+    text-align: left;
 }
 .tex-container p{
     font-weight: bold;
@@ -82,13 +84,13 @@ nav a:hover{
 }
 .button{
     border: none;
-    background-color: var(--cor4);
-    padding: 25px 50px;
+    background-color: var(--cor5);
+    padding: 15px 35px;
     border-radius: 50px;
     color: var(--cor2);
     font-size: 1.3em;
     font-weight: bold;
-    box-shadow: 0 5px 30px #2616db67;
+    box-shadow: 0 5px 30px #db05427c;
 }
 .button:hover{
     cursor: pointer;
@@ -106,10 +108,10 @@ nav a:hover{
     padding: 5vh 11vw;
 }
 .text-about{
-    width: 50vw;
+    width: 50%;
 }
 .container-smartwatch{
-    width: 50vw;
+    width: 50%;
 }
 .text-about h1{
     font-weight: bold;
@@ -118,6 +120,7 @@ nav a:hover{
 .text-about p{
     padding: 20px 0px;
     font-size: 1.3em;
+    line-height: 1.2em;
 }
 .text-about button{
     margin-top: 20px;
@@ -141,5 +144,77 @@ nav a:hover{
 }
 .text-background-img-section p{
     padding: 20px 0px;
+    line-height: 26px;
+    font-size: 1.1em
 }
+.text-background-img-section button{
+    margin-top: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+    background-color: var(--cor2);
+    padding: 2vh 10vw;
+    gap: 40px;
+}
+.contact-text{
+    width: 50%;
+}
+.contact-text h1{
+    font-size: 3.5em;
+}
+.contact-text p{
+    padding: 50px 0px;
+    line-height: 26px;
+    font-size: 1.1em
+}
+.icons-text{
+    display: flex;
+    align-items: center;
+}
+.icons-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 70px;
+    font-size: 1.6em;
+}
+.icons-text i{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--cor2);
+}
+.icons-text > .fa-facebook-f{
+    padding: 10px 15px;
+}
+.icons-text:hover{
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12vw;
+    height: 15vh;
+    background-color: var(--cor5);
+}
+.navi a{
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.icons-footer{
+    font-size: 1.9em;
+}
+.icons-footer i{
+    padding-left: 20px;
+    color: var(--cor2);
+}
+
 
