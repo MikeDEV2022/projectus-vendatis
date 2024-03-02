@@ -159,6 +159,10 @@ body{
     padding: 2vh 10vw;
     gap: 40px;
 }
+.contact-img img{
+    margin: auto;
+    width: 90%;
+}
 .contact-text{
     width: 50%;
 }
@@ -180,6 +184,8 @@ body{
     justify-content: flex-end;
     gap: 70px;
     font-size: 1.6em;
+    width: 100%;
+    height: 100%;
 }
 .icons-text i{
     background-color: var(--cor1);
