@@ -39,11 +39,13 @@ body{
     color: var(--cor5);
     cursor: pointer;
     transition: .5s;
+    transform: translate(-0px, -10px);
 }
 .icons > .fa-instagram:hover{
     color: var(--cor5);
     cursor: pointer;
     transition: .5s;
+    transform: translate(-0px, -10px);
 }
 .nav-list a{
     font-size: 0.9em;
